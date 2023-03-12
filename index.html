@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exploring DOM Manupulation</title>
+    <link rel="stylesheet" href="style/style.css">
+</head>
+<body>
+    <section>
+        <h1>Event Handler On Click</h1>
+        <p>click the below button and see the majic of event hand on click</p>
+        <button onclick="makeAquamarine()">Make A BG color</button>
+        <button id="make-goldenrod">Make Another BG color</button>
+    </section>
+    <section>
+        <h1>Handle Text On Click</h1>
+        <p id="status">Default text .The text will changed when the bellow button is clicked</p>
+        <button onclick="handlerOnClick()">Text triger</button>
+        <br><br>
+        <p id="display">default</p><br>
+        <input id="input-field" type="text"><br><br>
+        <button id="Update-btn">Update</button>
+    </section>
+    <section>
+        <div id="comment-container">
+            <p>Lorem, ipsum dolor.</p>
+        </div>
+        <div>
+            <textarea name="" id="comment-box" cols="60" rows="5"></textarea>
+            <button id="btn-comnt">Comment</button>
+        </div>
+    </section>
+    <section>
+        <h1 id="secret-info">Form field</h1>
+        <input type="text" id="delete-confirm" placeholder="Please type delete">
+        <button id="btn-delete" disabled>Delete</button>
+    </section>
+    <section>
+        <h1>Event Delegate</h1>
+        <ul id="list-container">
+            <li class="item">Lorem, ipsum dolor.</li>
+            <li class="item">Possimus, id? Odio.</li>
+            <li class="item">Inventore, voluptas aut.</li>
+            <li class="item">Cum, omnis in?</li>
+            <li class="item">Harum, id eligendi?</li>
+            <li class="item">Ullam, nihil distinctio.</li>
+        </ul>
+        <button id="add-item-btn">
+            Add
+        </button>
+    </section>
+    
+
+    <script src="js/event-handler.js"></script>
+</body>
+</html>
